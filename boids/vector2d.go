@@ -27,7 +27,7 @@ func (v1 Vector2D) MultiplyV(d float64) Vector2D {
 	return Vector2D{v1.x * d, v1.y * d}
 }
 
-func (v1 Vector2D) DivisonV(d float64) Vector2D {
+func (v1 Vector2D) DivisionV(d float64) Vector2D {
 	return Vector2D{v1.x / d, v1.y / d}
 }
 

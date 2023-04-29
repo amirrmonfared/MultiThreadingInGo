@@ -2,7 +2,10 @@ module github.com/amirrmonfared/MultiThreadingInGo
 
 go 1.19
 
-require github.com/hajimehoshi/ebiten/v2 v2.5.3
+require (
+	github.com/hajimehoshi/ebiten v1.12.12
+	github.com/hajimehoshi/ebiten/v2 v2.5.3
+)
 
 require (
 	github.com/ebitengine/purego v0.3.2 // indirect
